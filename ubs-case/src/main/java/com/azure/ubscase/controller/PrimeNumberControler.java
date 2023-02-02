@@ -19,7 +19,7 @@ public class PrimeNumberControler {
 	
 	Logger logger = (Logger)LoggerFactory.getLogger(PrimeNumberControler.class);
 	
-    @RequestMapping("/")
+    @RequestMapping("/primenumber")
     public ResponseEntity<Object> index() {
 
         
